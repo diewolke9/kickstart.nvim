@@ -2,4 +2,11 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+return {
+  {
+    'martineausimon/nvim-lilypond-suite',
+    opts = {
+      -- edit config here (see "Customize default settings" in wiki)
+    },
+  },
+}
